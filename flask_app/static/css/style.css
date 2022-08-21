@@ -1,0 +1,375 @@
+/***************************************
+* STYLING FOR ENTIRE PAGE
+****************************************/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container, .body-container, .form-container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.body-container, .form-container {
+    display: flex;
+}
+
+.body-container {
+    justify-content: space-evenly;
+    height: inherit;
+}
+
+/* html & body tags are for the full background image: */
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    height: 100%;
+    background-image: url(/static/img/woodworking_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/***************************************
+* HEADER NAV
+****************************************/
+.nav-infinite-bg {
+    background-color: #0e6e26;
+    padding: 1px 10px;
+    height: 35px;
+}
+
+.header-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+    background-color: #0e6e26;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-btn {
+    margin: 1px 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-btn:hover {
+    color: #1ECBE1;
+}
+
+
+/***************************************
+* FOOTER
+****************************************/
+.footer-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/***************************************
+* BUTTONS & CTAs
+****************************************/
+.btn-main {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #0e6e26;
+}
+
+
+.text-cta {
+    margin: 5px;
+    color: #0e6e26;
+}
+
+
+/***************************************
+* FORMS & TABLES
+****************************************/
+.card-container  {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    min-width: 300px;
+}
+
+.card-headline {
+    font-weight: bold;
+    color: #0e6e26;
+}
+
+.card-table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: padding;
+}
+
+.tbody {
+    width: 70%;
+}
+
+.form-row{
+    margin-bottom: 15px;
+}
+
+.form-placeholder {
+    color: gray;
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+}
+
+.error_message {
+    color: red;
+}
+
+
+/***************************************
+* VIEW PAGE
+****************************************/
+.image-full {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 75%;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+/***************************************
+* EDIT PAGE
+****************************************/
+.image-thumb {
+    padding: 0px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+/***************************************
+* LOGIN & REG PAGE
+****************************************/
+.login-header{
+    height: 75px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #0e6e26;
+    align-content: center;
+} 
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.login-subhead {
+    text-align: center;
+}
+
+.login-bg {
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.65);
+    margin-top: 0px;
+    padding: 5px 5px 100px 5px;
+}
+
+.login-module-header{
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+    background-color: #6e260e;
+    color: white;
+    text-align: center;
+}
+
+.login-left-body, .login-right-body {
+    width: 45%;
+    margin: 10px;
+    border: solid 1px gray;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.login-form-group {
+    margin: 10px;
+}
+
+.login-form-label {
+    font-weight: bold;
+}
+
+
+/***************************************
+* DASHBOARD PAGE
+****************************************/
+.dashboard-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+    min-height: 100%;
+    background-color: transparent;
+}
+
+.dashboard-hero {
+    color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.dashboard-body {
+    width: inherit;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.6);
+    height: 100%;
+    min-height: 100%;
+}
+
+
+/***************************************
+* DASHBOARD PAGE - HERO
+****************************************/
+.container-hero-small {
+    color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.header-headline {
+    position: absolute;
+    top: 40%;
+    margin-left: 5%;
+    font-size: 45px;
+}
+
+.header-subhead {
+    position: absolute;
+    top: 20%;
+    margin-left: 5%;
+}
+
+.btn-hero-container {
+    position: absolute;
+    top: 70%;
+    margin-left: 5%;
+}
+
+.btn-hero {
+    position: absolute;
+    width: 150px;
+    top: 70%;
+    margin-left: 5%;
+    border: none; 
+    background-color: #0e6e26;
+    color: white;
+}
+
+
+/***************************************
+* DASHBOARD PAGE - BOXES
+****************************************/
+.dash-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dash-box-box{
+    width: 200px;
+    margin: 5px;
+    padding: 0px;
+    background-color: #e2fbe8;
+    border-radius: 15px 15px;
+    border: 1px solid #6e260e;
+    align-content: center;
+}
+
+.dash-box-box:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.dash-box-header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-header-left {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dash-header-right {
+    margin: 0px;
+    padding-right: 5px;
+}
+
+.dash-box-title {
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.icon-fav {
+    padding-right: 5px;
+    position: relative;
+    top: 8px; /* Half (-1) of the dash-box-title font size to vertically center */
+    color: red;
+    text-decoration: none;
+}
+
+.icon-unfav {
+    padding-right: 5px;
+    position: relative;
+    top: 8px; /* Half (-1) of the dash-box-title font size to vertically center */
+    color: black;
+    text-decoration: none;
+}
+
+.dash-box-body {
+    margin: 2px 5px;
+    font-size: 14px;
+}
+
+.dash-box-img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    max-height: 200px;
+    width: 100%;
+}
+
+.dash-text-cta {
+    margin: 5px;
+    color: #6e260e;
+}
